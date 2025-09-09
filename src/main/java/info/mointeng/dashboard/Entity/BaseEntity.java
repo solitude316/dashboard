@@ -49,7 +49,7 @@ public abstract class BaseEntity {
      * 最後修改人
      */
     @LastModifiedBy
-    @Column(name = "updated_user")
+    @Column(name = "update_user")
     protected String updateUser;
 
     public BaseEntity() {
